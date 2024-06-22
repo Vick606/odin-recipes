@@ -30,3 +30,39 @@ header h1 {
 main {
     padding: 20px;
 }
+
+.recipe-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-image:hover {
+    transform: scale(1.05);
+}
+
+section {
+    margin-bottom: 20px;
+}
+section h2 {
+    color: #01796F;
+    border-bottom: 2px solid #01796F;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.ingredients ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.steps ol {
+    padding-left: 20px;
+}

@@ -66,3 +66,33 @@ section h2 {
 .steps ol {
     padding-left: 20px;
 }
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: #01796F;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.recipe-list a:hover {
+    color: #014940;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #01796F;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 800px;
+}
